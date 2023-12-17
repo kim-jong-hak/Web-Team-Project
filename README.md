@@ -9,7 +9,8 @@
 - 눈송이 내리기 
 - subcputer, subapple에 있는 사진에다 마우스를 올려놓으면 유튜브 영상으로 전환
 
-<img src="https://github.com/kim-jong-hak/Web-Team-Project/blob/main/%E1%84%8B%E1%85%A2%E1%84%91%E1%85%B3%E1%86%AF%E1%84%90%E1%85%B3%E1%84%85%E1%85%B5/picture/%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.png?raw=true">
+![조원](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/38fd3677-4df6-47d0-a439-dca09818d6cf)
+![프로젝트소개](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/526be213-8ea6-4b5a-9ff9-95e1109ce529)
 
 [목차]
 
