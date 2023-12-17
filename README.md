@@ -1,6 +1,8 @@
 
 "2학년 2학기에 대학교에서 웹 프로그래밍 (HTML, CSS, JavaScript) 강의를 수강하게 되었습니다. 해당 강의는 3일 1팀으로 진행되어 팀 프로젝트를 장려하는 수업이었죠.
 
+### 프로젝트 이름 : 애플트리 
+
 ![조원](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/38fd3677-4df6-47d0-a439-dca09818d6cf)
 ![프로젝트소개](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/526be213-8ea6-4b5a-9ff9-95e1109ce529)
 
