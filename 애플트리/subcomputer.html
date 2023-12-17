@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Web Project</title>
+  <link rel="stylesheet" href="(CSS)공통/styles.css" type="text/css">
+  <!-- 배경 및 겨울 컨셉 프로그램 로직 호출 -->
+  <link rel="stylesheet" href="(CSS)눈내리는/app.css" type="text/css">
+  <script src="(JS)로그인 및 div태그 내용 변환/script.js" defer></script>
+	
+</head>
+<body>
+  <!-- 눈송이 표현용 div -->
+    <div class="snowflake-container"></div>
+      <!-- 배경 및 겨울 컨셉 css 호출 -->
+  <script src="(JS)눈내리기/snowos.js" defer></script>
+	<div id="page">
+		<header>
+			<div id="logo">
+				<img src="picture\로고.png" alt="Logo" width="110px" height="110px">
+				<img src="picture\Team.png" alt="Logo" width="160px" height="110px">
+			</div>
+			<nav>
+        <div id="top_menu">
+          <a href="#" onclick="toggleLogin()">LOGIN</a> |
+          <a href="submain.html">HOME</a> |
+          <a href="subComputer.html">COMPUTER</a> |
+          <a href="subApple.html">APPLE</a><br>
+          <h4></h4>
+        </div>
+      </nav>
+		
+
+			
+		</header>
+		<div id="main-container">
+			<h1> 컴퓨터 하드웨어</h1>
+		
+		 <!-- 정확하게 사진에 마우스 커서가 놓였을 때 동작할 수 있게 인라인 태그 및 블럭 태그를 조합해 보았다. -->
+     <div style="display: inline;"> </div>
+     <div  id="yourDiv" onmousemove="computer_div()" style=" display: inline-block;  height:400px;  ">
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrdMxs7VKMOs4r5B8HGz22WZ0M87et0mudKKxmzzraNCM6mo7JJGNQFRRCYZTDgdyq0S0&amp;usqp=CAU" alt="배너 2" width="600px" height="400px">
+      </div>
+       <div style="display: inline;"> </div>  
+       <div></div>
+    
+   
+
+		
+			<form>
+				<fieldset>
+					<legend><pl style="color:black;">컴퓨터 구조의 하드웨어 차이점</pl></legend>
+					
+						중앙 처리 장치 (CPU):<br><p>Intel: 인텔은 대표적인 CPU 제조사 중 하나로, Core i3, i5, i7, i9 시리즈 등의 프로세서를 공급합니다.</p><p>AMD: AMD는 Ryzen 시리즈를 비롯한 다양한 프로세서를 제공하며, 경쟁력 있는 가격과 성능을 제공합니다.</p></li><br>
+
+						메모리 (RAM):<br><p>Crucial: Crucial은 메모리 및 저장 장치를 생산하는 회사로, DDR4 및 DDR5 RAM을 공급합니다.</p><p>Corsair: Corsair는 메모리와 게임용 RAM 제품을 제공하며, 고성능 및 안정성으로 유명합니다.</p></li><br>
+
+						저장 장치 (하드 드라이브 또는 SSD):<br><p>Samsung: 삼성은 SSD 및 HDD를 제조하는 회사로, NVMe SSD 및 SATA SSD를 제공합니다.</p><p>Western Digital (WD): WD는 외장 HDD 및 내장 HDD를 공급하는 회사로, 안정성과 용량 면에서 다양한 제품을 제공합니다.</p></li><br>
+
+						그래픽 카드 (GPU):<br><p>NVIDIA: NVIDIA는 게임 및 그래픽 작업에 사용되는 GPU를 공급하는 회사로, GeForce 및 Quadro 시리즈를 제공합니다.</p><p>AMD: AMD는 Radeon 시리즈를 통해 게임과 그래픽 작업에 사용되는 GPU를 제공합니다.</p></li><br>
+
+						전원 공급 장치 (PSU):<br><p>Corsair: Corsair는 다양한 와트 수준의 고품질 PSU를 공급하는 회사로 유명합니다.</p><p>EVGA: EVGA는 게이밍 및 고성능 컴퓨팅을 위한 PSU를 제공하며, 안정적인 전력을 제공합니다.</p></li><br>
+				</fieldset>
+			</form>
+    </div>
+
+		<section>
+				<ul id="banner">
+					<img src="picture\밑 배너3.png" alt="banner4" width="1423px" height="300px">
+				</ul>
+		</section>
+	</div>
+
+
+		 <!--// 페이지 로딩 시 자동으로 로그인 상태 확인-->
+		<script src="(JS)로그인 및 div태그 내용 변환/Session.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Web Project</title>
+
+    <link rel="stylesheet" href="(CSS)공통/styles.css" type="text/css">
+   
+       <!-- 배경 및 겨울 컨셉 css 호출 -->
+    <link rel="stylesheet" href="(CSS)눈내리는/app.css" type="text/css">
+    <script src="(JS)로그인 및 div태그 내용 변환/script.js" defer></script>
+
+</head>
+
+<body >
+   <!-- 눈송이 표현용 div -->
+  <div class="snowflake-container"></div>
+   <!-- 배경 및 겨울 컨셉 프로그램 로직 호출 -->
+  <script src="(JS)눈내리기/snowos.js" defer></script>
+	<div id="page" >
+		<header >
+			<div id="logo">
+				<img src="picture\로고.png" alt="Logo" width="110px" height="110px">
+				<img src="picture\Team.png" alt="Logo" width="160px" height="110px">
+			</div>
+			<nav>
+        <div id="top_menu">
+          <a href="#" onclick="toggleLogin()">LOGIN</a> |
+          <a href="submain.html">HOME</a> |
+          <a href="subComputer.html">COMPUTER</a> |
+          <a href="subApple.html">APPLE</a><br>
+          <!-- 아래의 코드가 수정된 부분 -->
+          <h4></h4>
+        </div>
+      </nav>
+		</header>
+
+		<div id="main-container">
+			<h1> Apple MacBook</h1>
+		
+       
+      <!-- 정확하게 사진에 마우스 커서가 놓였을 때 동작할 수 있게 인라인 태그 및 블럭 태그를 조합해 보았다. -->
+      <div style="display: inline;"> </div>
+      <div  id="myDiv" onmousemove="APP_div()" style=" display: inline-block;  height:400px;  ">
+
+       <img src="https://www.hohyeonmoon.com/Images/icon-cover-apple.png" alt="배너 2" width="600px" height="400px">
+       </div>
+        <div style="display: inline;"> </div>  
+        <div></div>
+       
+
+				<!--<a href="https://www.apple.com/kr/mac/"onclick="return query()"> 애플 공식 홈페이(Mac)</a>-->
+          <form>
+            <fieldset>
+              <legend><pl style=color:black;>컴퓨터 구조의 하드웨어 차이점</pl></legend>
+              
+                <br>프로세서 아키텍처: 맥북은 Apple이 제작한 소프트웨어와 하드웨어가 함께 동작하도록 설계된 ARM 아키텍처 프로세서를 사용합니다. <br><p>반면 대부분의 일반 컴퓨터는 x86 아키텍처 프로세서 (예: Intel 또는 AMD)를 사용합니다.</p></li><br>
+    
+                그래픽 처리장치 (GPU): 일반적으로 맥북은 Apple의 고유한 GPU를 사용하며, 이는 그래픽 성능을 향상시키는 데 기여합니다. <br><p>일반 컴퓨터는 다양한 GPU 제조사와 모델을 선택할 수 있습니다.</p></li><br>
+    
+                저장 장치: 맥북은 PCIe 기반 SSD를 사용하여 빠른 데이터 접근 속도를 제공합니다.<br><p>대부분의 일반 컴퓨터도 SSD를 사용하지만, 저장 장치 유형 및 속도는 제조사 및 모델에 따라 다를 수 있습니다.</p></li><br>
+    
+                메모리 (RAM): 맥북은 사용자 업그레이드가 제한된 RAM을 사용하며, 대부분의 모델은 사용자가 RAM을 업그레이드하기 어렵습니다.<br><p>일반 컴퓨터는 사용자가 더 쉽게 RAM을 업그레이드할 수 있습니다.</p></li><br>
+    
+                포트 및 확장성: 맥북은 USB-C 포트를 주로 사용하며, 일부 모델에서는 다른 표준 포트가 제한적입니다. <br><p>일반 컴퓨터는 다양한 포트와 확장성 옵션을 제공하며, 사용자의 요구에 따라 커스터마이징할 수 있습니다.</p></li><br>
+    
+                칩 디자인: 맥북은 Apple의 고유한 칩 디자인을 사용하며, 최신 모델에서는 M1 칩과 같은 Apple Silicon이 도입되었습니다.<br><p>일반 컴퓨터는 다양한 제조사의 칩을 사용합니다.</p><br></li>
+              
+            </fieldset>
+          </form>
+
+		<section>
+				<ul id="banner">
+					<img src="picture\밑 배너4.png" alt="banner3" width="100%" height="300px"  id="media" >
+        
+  
+				</ul>
+		</section>
+	</div>
+
+    <!--// 페이지 로딩 시 자동으로 로그인 상태 확인-->
+    <script src="(JS)로그인 및 div태그 내용 변환/Session.js" defer></script>
+
+
+</body>
+</html>
+

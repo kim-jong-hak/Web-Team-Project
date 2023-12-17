@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Web Project</title>
+  <link rel="stylesheet" href="(CSS)공통/styles.css" type="text/css">
+  <script src="(JS)로그인 및 div태그 내용 변환/script.js" defer></script>
+ 
+
+</head>
+
+<body>
+  <div id="page">
+    <header>
+      <div id="logo">
+        <img src="picture\로고.png" alt="Logo" width="110px" height="110px">
+        <img src="picture\Team.png" alt="Logo" width="160px" height="110px">
+      </div>
+      
+      <nav>
+        <div id="top_menu">
+          <a href="#" onclick="toggleLogin()">LOGIN</a> |
+          <a href="submain.html">HOME</a> |
+          <a href="subComputer.html">COMPUTER</a> |
+          <a href="subApple.html">APPLE</a><br>
+          <h4></h4>
+        </div>
+      </nav>
+    </header>
+
+    <article id="content">
+      <section id="main">
+        <div style="position: relative;">
+          <img src="picture\Background1.png" alt="main img" width="100%" height="1000px">
+          <div style="position: absolute; top:0px; left:20%; ">
+            <img src="picture\글.png" >
+          </div>
+          <div style="position: absolute; top:400px; left:10%;">
+            <a href="subComputer.html"><img src="picture\차이1.png"></a>
+          </div>
+          <div style="position: absolute; top: 400px; left:60%;">
+            <a href="subApple.html"><img src="picture\차이2.png"></a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <ul id="banner">
+          <img src="picture\밑 배너1.png" alt="banner1" width="100%" height="300px">
+          <img src="picture\밑 배너2.png" alt="banner2" width="100%" height="300px">
+        </ul>
+      </section>
+    </article>
+  </div>
+
+
+   <!--// 페이지 로딩 시 자동으로 로그인 상태 확인-->
+    <script src="(JS)로그인 및 div태그 내용 변환/Session.js" defer></script>
+</body>
+</html>
