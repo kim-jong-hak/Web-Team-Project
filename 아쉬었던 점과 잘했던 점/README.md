@@ -6,7 +6,8 @@
 ## 아쉬웠던 점 
 
 ### 기술적 아쉬움 
-![KakaoTalk_Photo_2023-12-18-00-24-31](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/1d090247-d6e0-4340-ac19-ff3609ab8657)<br>
+![KakaoTalk_Photo_2023-12-18-00-24-31](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/10cbaf3b-6c05-4bc9-ab52-8eab344ce5d4)
+<br>
 작업물을 Git으로 형성하여 관리하고, 노션을 활용하여 작업 진도 및 커뮤니케이션을 하기로 계획했습니다.
 
 ![KakaoTalk_Photo_2023-12-18-00-26-10](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/5c6bb3eb-0813-4f58-bbda-6ced15673eb1)<br>
