@@ -7,6 +7,7 @@
 
 ### 기술적 아쉬움 
 ![KakaoTalk_Photo_2023-12-18-00-24-31](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/10cbaf3b-6c05-4bc9-ab52-8eab344ce5d4)
+![KakaoTalk_Photo_2023-12-18-00-26-10](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/9cd8c9fe-c019-4fb4-9f54-4192831db358)
 <br>
 작업물을 Git으로 형성하여 관리하고, 노션을 활용하여 작업 진도 및 커뮤니케이션을 하기로 계획했습니다.<br>
 하지만 팀원분들이 다른 플랫폼을 사용함에있어 요구되는 공부가 부담되어 강한 반말이 있었고. <br>
