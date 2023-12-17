@@ -21,3 +21,5 @@
 
 각 항목을 자세히 살펴보시려면 목차에서 원하는 섹션을 클릭해 주세요. 
 페이지가 원활하게 이동되도록 구성되어 있습니다."
+
+![마무리](https://github.com/kim-jong-hak/Web-Team-Project/assets/106467549/5184af07-73a2-415d-87b0-9b0b7c6f6dbc)
